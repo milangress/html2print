@@ -3,7 +3,7 @@
 if (window.chrome) {
     console.log('running chrome, no support for css regions; loading the polyfill');
     var script = document.createElement('script');
-    script.setAttribute('src', 'assets/lib/css-regions.min.js');
+    script.setAttribute('src', 'html2print/lib/css-regions.min.js');
     document.getElementsByTagName('head')[0].appendChild(script);
 };
 
