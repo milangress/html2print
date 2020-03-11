@@ -8,7 +8,7 @@ To know basic information and how to first start the project, please read the RE
 Anatomy of the repo
 -------------------
 
-The folder tries to present you with the minimum files at first: a couple of html files, a stylesheet, assets folder and this readme.
+The folder tries to present you with the minimum files at first: a couple of html files, a stylesheet, html2print folder and this readme.
 That is all you need to get started. Refer to the "Development" section to get your environment up and running.
 
 #### /content.html
@@ -28,7 +28,7 @@ Compiled .less files into a .css file, used for the polyfill. To generate it, do
 #### /index.html
 This is where it all comes together. We pull together all the requirements, all the library elements, the content, and the stylesheets. This is the file you'll be looking at when you run your development environment.
 
-#### /assets
+#### /html2print
 
 - `/lib/` → all that we need for interface elements, less processing, resetting browser attitudes, etc→
 - `/js/` → interface element actions & attitudes, as well as general variable settings, namely, the amount of pages for your document.
@@ -99,7 +99,7 @@ then hiding the footer with visibility:none on pages where one would not want th
 Changing the visual structure of the document
 ---------------------------------------------
 
-If you want to have another type of layout than header/body/footer, you might want to edit the pages `index.html` and `/assets/less/layout.less`. Look at the code in the `examples` folder for more help.
+If you want to have another type of layout than header/body/footer, you might want to edit the pages `index.html` and `/html2print/less/layout.less`. Look at the code in the `examples` folder for more help.
 
 
 
