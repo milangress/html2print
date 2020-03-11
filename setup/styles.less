@@ -1,0 +1,80 @@
+//Interface:
+body {
+  background: #ffffff;
+}
+.paper {
+  box-shadow: #c2ccd1 1px 1px 15px;
+}
+
+/* Here you can put your specific typography, layout styles. */
+body {
+  font-family: "Pirelli";
+}
+.header {
+  color: transparent;
+  text-shadow: -4px 4px rgba(179,179,179,.4), -3px 3px rgba(153,153,153,.2), -2px 2px rgba(179,179,179,.2), -1px 1px rgba(179,179,179,.2), 0px 0px rgba(128,128,128,.5), 1px -1px rgba(77,77,77,.6), 2px -2px rgba(77,77,77,.7), 3px -3px rgba(82,82,82,.8), 4px -4px rgba(77,77,77,.9), 5px -5px rgba(77,77,77,1);
+}
+article {
+  background: linear-gradient(45deg, #ffffff, #868686, #ffffff);
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.paper {
+}
+.paper:nth-child(even) .page {
+  background: linear-gradient(45deg, rgb(249, 249, 249), rgb(128, 128, 128));
+}
+.paper:nth-child(odd) .page {
+  background: linear-gradient(-45deg, rgb(249, 249, 249), rgb(128, 128, 128));
+}
+p {
+  margin-bottom: 0;
+}
+p + p {
+  text-indent: 4rem;
+  margin-top: 0;
+}
+p.diasporaList {
+  //padding: 0.5rem;
+  padding-left: 4rem;
+  //margin-bottom: 1rem;
+  text-indent: -4rem;
+  background: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.80));
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: relative;
+  //border: #c2ccd1 solid 1px;
+}
+p.diasporaList>.italic {
+  text-decoration: underline black;
+}
+/*p.diasporaList:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(top, #000000, #ffffff);
+  z-index: -1;
+}*/
+
+/*.diasporaList,
+.diasporaList:before,
+.diasporaList:after {
+  background-image: -webkit-linear-gradient(left, #FF05E9, #00FFB2);
+  background-image: -o-linear-gradient(left, #FF05E9, #00FFB2);
+  !* Note that there's no -moz because backgrould-clip: text;
+     is not supported in Firefox, so we skip the gradient *!
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #fff;
+  -o-text-fill-color: #fff;
+  color: transparent;
+}
+
+.diasporaList {
+  -webkit-text-stroke: 0.01rem transparent;
+  position: relative;
+  color: #FF05E9;
+}*/
